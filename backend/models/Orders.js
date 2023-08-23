@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const { Schema } = mongoose; //destructuring
+const { Schema } = mongoose; //destructuring schema
 
 const OrderSchema = new Schema({
     email: {
